@@ -1,0 +1,3 @@
+project code : icky-smash-9105
+project type : Indivisual 
+working day : 5 days (1 day planning and 4 days coding)
