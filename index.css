@@ -67,7 +67,7 @@ hr{
     margin: 0px;
 }
 #coal{
-    width: fit-content;
+    width: 50%;
     margin: 20px auto;
     margin-bottom: 0px;
     cursor: pointer;
@@ -91,9 +91,15 @@ a{
     color: white;
     width: 50%;
 }
-a+img{
- margin-left: 100%;
- padding-left: 18%;
+a ul{
+    display: none;
+    list-style: none;
+    padding: 0%;
+    margin: 0px;
+}
+a:hover>ul{
+    display: block;
+    background-color: #211f1f;
 }
 
 /* middle boxs */
@@ -447,3 +453,255 @@ padding-top: 12px;
 }
 
 
+@media all and (min-width:656px) and (max-width:1000px){
+   #middle_box1{
+    width: 90%;;
+   }
+   #coal img{
+    width: 90%;
+   }
+   a+img{
+display: none;
+}
+#second2 img{
+height: max-content;
+}
+#second3{
+    height: max-content;
+}
+#bigimg1{
+    height: 50%;
+}
+#bigimg2{
+    height: 50%;
+}
+#middle_third .smallgrid div h2{
+ font-size: 15px;
+}
+#singupform button{
+    width: 45%;
+}
+
+}
+
+@media all and (min-width:320px) and (max-width:655px){
+     body #middle_box1{
+        grid-template-columns: 1fr;
+    }
+    #date{
+        display: none;
+    }
+    #coal img{
+    width: 100%;
+   }
+   #second #child1{
+    grid-column: 1/1;
+    margin-top:0px;
+}
+   a+img{
+display: none;
+}
+#navbar{
+    display: none;
+}
+body #date{
+    display: none;
+}
+#social{
+    display: none;
+}
+#footer{
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+#footer h3{
+    margin:0px;
+}
+#second{
+   grid-column: 1/1;
+   grid-row: 1/2;
+}
+#coal+a p{
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+#second>#grandchild{
+    grid-template-columns: 1fr;
+}
+#ad{
+    display: none;
+}
+#middle_box2{
+    grid-template-columns: 1fr;
+}
+#middle_box2 #bigchild1{
+    grid-column: 1/1;
+}
+#bigname h2{
+    font-size: 20px;
+}
+#bigname2 h2{
+    font-size: 20px;
+    line-height: 20px;
+}
+#halfimg2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#halfimg{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#middle_box2 #bigchild2{
+    grid-column: 1/1;
+    font-size: 18px;
+}
+#middle_third{
+    grid-template-columns: 1fr;
+}
+#middle_third img{
+    height: 100%;
+}
+#signup{
+    grid-template-columns: 1fr;
+}
+#signup button{
+    width: 100%;
+}
+#signup input{
+    width: 95%;
+}
+#topimg{
+    margin: auto;
+}
+#footer a{
+    display: none;
+}
+#footer{
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-bottom: 1px solid white;
+    font-family: "Open Sans";
+}
+#redline{
+    display: none;
+}
+#footer h3{
+        padding: 0px;
+        margin: 0px;
+        border: none;
+    }
+    #lastone{
+        display: none;
+    }
+    #lastetwo{
+        margin: auto;
+    }
+}
+
+@media all and (min-width:10px) and (max-width:320px){
+     body #middle_box1{
+        grid-template-columns: 1fr;
+    }
+    #date{
+        display: none;
+    }
+    #coal img{
+    width: 100%;
+   }
+   #second #child1{
+    grid-column: 1/1;
+    margin-top:0px;
+}
+   a+img{
+display: none;
+}
+#navbar{
+    display: none;
+}
+body #date{
+    display: none;
+}
+#social{
+    display: none;
+}
+#footer{
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+#footer h3{
+    margin:0px;
+}
+#second{
+   grid-column: 1/1;
+   grid-row: 1/2;
+}
+#coal+a p{
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+#second>#grandchild{
+    grid-template-columns: 1fr;
+}
+#ad{
+    display: none;
+}
+#middle_box2{
+    grid-template-columns: 1fr;
+}
+#middle_box2 #bigchild1{
+    grid-column: 1/1;
+}
+#bigname h2{
+    font-size: 20px;
+}
+#bigname2 h2{
+    font-size: 20px;
+    line-height: 20px;
+}
+#halfimg2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#halfimg{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#middle_box2 #bigchild2{
+    grid-column: 1/1;
+    font-size: 18px;
+}
+#middle_third{
+    grid-template-columns: 1fr;
+}
+#middle_third img{
+    height: 100%;
+}
+#signup{
+    display: flex;
+}
+#topimg{
+    margin: auto;
+}
+#footer a{
+    display: none;
+}
+#footer2{
+    display: none;
+}
+#signup{
+    grid-template-columns: 1fr;
+}
+#signup button{
+    width: 100%;
+}
+#signup input{
+    width: 95%;
+}
+}
