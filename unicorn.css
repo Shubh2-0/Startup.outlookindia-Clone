@@ -71,9 +71,16 @@ hr{
     margin-bottom: 30px;
     cursor: pointer;
 }
-a+img{
-padding-left: 100%;
-margin-left: 40%;
+#navbar a{
+    color: white;
+     font-size: 14px;
+     padding: 10px;
+     display: flex;
+    text-decoration: none;
+}
+#navbar a:hover{
+    background-color: white;
+    color: #D2051E;
 }
 
 
