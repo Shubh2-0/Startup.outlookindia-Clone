@@ -1,0 +1,100 @@
+#main{
+    border: 1px solid black;
+    width: 25%;
+    margin: auto;
+    height: auto;
+    margin-top: 60px;
+    font-family: "Open Sans";
+    padding: 0px 20px;
+}
+#topimg{
+    width: 70%;
+    margin: auto;
+    margin-top:70px;
+    height: auto;
+}
+#firstimg{
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+#secondimg{
+    width: 35%;
+    font-size: 8px;
+    color: gray;
+    margin: auto;
+    margin-top: 5%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#email{
+width: 90%;
+margin: auto;
+display: block;
+font-size: 18px;
+padding: 13px 10px;
+border-radius: 5px;
+border: 1px solid red;
+}
+#email+p{
+    width: 95%;
+    margin: auto;
+    color: gray;
+    margin-top: 0%;
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+#check{
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#verify{
+    width: 85%;
+    margin:0px auto;
+    display: block;
+    padding: 10px 0px;
+}
+form+p{
+    text-align: center;
+    color: rgb(152, 142, 142);
+    margin: 50px auto;
+}
+p span{
+    color: black;
+}
+#login{
+    width: 70%;
+    margin:20px auto;
+    display: block;
+    padding: 10px 0px;
+}
+
+
+
+
+form{
+    /* border: 3px solid black; */
+   width: 90%;
+   margin: auto;
+   margin-top: 30px;
+   height: auto;
+}
+#main img{
+    width: 100%;
+}
+#lastimg{
+    border: 1px solid blue;
+    width: 30%;
+    font-size: 10px;
+    color: gray;
+    margin: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 50px;
+}
