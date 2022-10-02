@@ -43,7 +43,14 @@ background-color: #D2051E;
 color: white;
 border-color: white;
 }
-
+#topbtn a{
+    text-decoration: none;
+    color: red;
+}
+#topbtn a :hover{
+color: white;
+cursor: pointer;
+}
 /* navbar */
 
 #navbar{
@@ -112,7 +119,7 @@ hr{
 #coal{
     width: fit-content;
     margin: 20px auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     cursor: pointer;
 }
 
