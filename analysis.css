@@ -47,7 +47,7 @@ border-color: white;
     text-decoration: none;
     color: red;
 }
-#topbtn a :hover{
+#topbtn a:hover{
 color: white;
 cursor: pointer;
 }
@@ -403,6 +403,9 @@ body #box1{
         border: none;
     }
     #lastone{
+        display: none;
+    }
+    #search{
         display: none;
     }
     #lastetwo{

@@ -46,10 +46,13 @@ border-color: white;
     text-decoration: none;
     color: red;
 }
-#topbtn a :hover{
-color: white;
-cursor: pointer;
+#topbtn>a:hover{
+    color: white;
 }
+#topbtn:hover{
+    cursor: pointer;
+}
+
 /* navbar */
 
 #navbar{
