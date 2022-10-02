@@ -28,6 +28,19 @@ body{
  margin:  0% 3%;
  cursor: pointer;
 }
+<<<<<<< HEAD
+a ul{
+    display: none;
+    list-style: none;
+    padding: 0%;
+    margin: 0px;
+}
+a:hover>ul{
+    display: block;
+    background-color: #211f1f;
+}
+=======
+>>>>>>> ab321945b6ec5b75f8a8e4390b11a5d399e5e17f
 #topbtn{
     display: block;
     background-color: transparent;
@@ -52,6 +65,13 @@ border-color: white;
     font-family: sans-serif;
     text-align: center;
 }
+<<<<<<< HEAD
+a span{
+    color: red;
+    margin-left: 5px;
+}
+=======
+>>>>>>> ab321945b6ec5b75f8a8e4390b11a5d399e5e17f
 #navbar a{
     color: white;
      font-size: 14px;
@@ -62,6 +82,14 @@ border-color: white;
     background-color: white;
     color: #D2051E;
 }
+<<<<<<< HEAD
+#search{
+    width: 95%;
+    text-align: right;
+    margin-top: -25px;
+}
+=======
+>>>>>>> ab321945b6ec5b75f8a8e4390b11a5d399e5e17f
 hr{
     border: 0.1px solid #99141d ;
 }
@@ -71,10 +99,14 @@ hr{
     margin-bottom: 30px;
     cursor: pointer;
 }
+<<<<<<< HEAD
+
+=======
 a+img{
 padding-left: 100%;
 margin-left: 40%;
 }
+>>>>>>> ab321945b6ec5b75f8a8e4390b11a5d399e5e17f
 
 
 /* box work */
@@ -92,7 +124,11 @@ margin-left: 40%;
     gap: 20px;
     padding-bottom: 80px;
     border-bottom: 4px solid 
+<<<<<<< HEAD
+    #DA4B8B;
+=======
     #DA4B8B;;
+>>>>>>> ab321945b6ec5b75f8a8e4390b11a5d399e5e17f
 }
 
 #box1>#second{
@@ -244,6 +280,10 @@ padding-top: 20px;
 }
 #footer a:hover{
     color:red;
+<<<<<<< HEAD
+    text-decoration: ;
+=======
+>>>>>>> ab321945b6ec5b75f8a8e4390b11a5d399e5e17f
 }
 
 #footer h3{
@@ -261,7 +301,11 @@ padding-top: 20px;
     display: flex;
     height: auto;
     font-family: sans-serif;
+<<<<<<< HEAD
+    margin-top: 90px;
+=======
     margin-top: 60px;
+>>>>>>> ab321945b6ec5b75f8a8e4390b11a5d399e5e17f
     justify-content: space-between;
 }
 #btmiconsocial{
@@ -286,5 +330,186 @@ padding-top: 12px;
     margin: 10px;
      font-size: 14px;
     color: rgba(255, 255, 255, 0.534);
+<<<<<<< HEAD
+}
+
+
+@media all and (min-width:10px) and (max-width:320px){
+
+   #coal img{
+    width: 90%;
+   }
+   a+img{
+display: none;
+}
+#box1{
+    grid-template-columns: 1
+}
+#box1>#second{
+    grid-column: 1/1
+    }
+}
+
+@media all and (min-width:320px) and (max-width:550px){
+
+   #coal img{
+    width: 100%;
+   }
+   a+img{
+display: none;
+}
+body #box1{
+    grid-template-columns: 1fr;
+    gap: 0px;
+    width: 97%;
+}
+#box1>#second{
+    grid-column: 1/1;
+    border: none;
+    gap: 0px;
+    }
+    #third{
+        border: none;
+    }
+    #Date{
+        display: none;
+    }
+    #social{
+        display: none;
+    }
+    #topimg{
+        margin: auto;
+    }
+    #navbar{
+        display: none;
+    }
+    .childs p{
+        display: none;
+    }
+    #box2{
+        width: 98%;
+    }
+    .childs{
+    grid-template-columns: repeat(2,1fr);
+   width: 100%;
+}
+.childs h1{
+    font-size: 20px;
+}
+.childs .two{
+    display: none;
+}
+#footer a{
+    display: none;
+}
+#footer{
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-bottom: 1px solid white;
+    font-family: "Open Sans";
+}
+#redline{
+    display: none;
+}
+#footer h3{
+        padding: 0px;
+        margin: 0px;
+        border: none;
+    }
+    #lastone{
+        display: none;
+    }
+    #lastetwo{
+        margin: auto;
+    }
+}
+
+
+
+
+@media all and (min-width:551px) and (max-width:750px){
+
+   #coal img{
+    width: 90%;
+    margin: auto;
+   }
+   #coal{
+    width: 90%;
+   }
+   a+img{
+display: none;
+}
+body #box1{
+    grid-template-columns: 1fr;
+    gap: 0px;
+    width: 97%;
+}
+#box1>#second{
+    grid-column: 1/1;
+    border: none;
+    gap: 0px;
+    }
+    #third{
+        border: none;
+    }
+    #Date{
+        display: none;
+    }
+    #social{
+        display: none;
+    }
+    #topimg{
+        margin: auto;
+    }
+    #navbar{
+        display: none;
+    }
+    .childs p{
+        display: none;
+    }
+    #box2{
+        width: 98%;
+    }
+    .childs{
+    grid-template-columns: repeat(2,1fr);
+   width: 100%;
+}
+.childs h1{
+    font-size: 20px;
+}
+.childs .two{
+    display: none;
+}
+#footer a{
+    display: none;
+}
+#footer{
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-bottom: 1px solid white;
+    font-family: "Open Sans";
+}
+#redline{
+    display: none;
+}
+#footer h3{
+        padding: 0px;
+        margin: 0px;
+        border: none;
+    }
+    #lastone{
+        display: none;
+    }
+    #lastetwo{
+        margin: auto;
+    }
+}
+
+=======
     text-decoration: none;
 }
+>>>>>>> ab321945b6ec5b75f8a8e4390b11a5d399e5e17f
