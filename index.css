@@ -51,26 +51,16 @@ border-color: white;
     font-family: sans-serif;
     text-align: center;
 }
-#navbar a{
+#navbar>a{
     color: white;
      font-size: 14px;
-     padding: 10px;
-     display: flex;
+     padding: 10px 10px;
     text-decoration: none;
+    display: block;
 }
-#navbar a:hover{
+#navbar>a:hover{
     background-color: white;
     color: #D2051E;
-}
-hr{
-    border: 0.1px solid #99141d ;
-    margin: 0px;
-}
-#coal{
-    width: 50%;
-    margin: 20px auto;
-    margin-bottom: 0px;
-    cursor: pointer;
 }
 a>p{
     text-align: center;
@@ -91,15 +81,22 @@ a{
     color: white;
     width: 50%;
 }
-a ul{
-    display: none;
-    list-style: none;
-    padding: 0%;
-    margin: 0px;
+#search{
+
+    width: 90%;
+    text-align: end;
+    margin: auto;
+    margin-top: -30px;
 }
-a:hover>ul{
-    display: block;
-    background-color: #211f1f;
+hr{
+    border: 0.1px solid #99141d ;
+    margin: 10px;
+}
+#coal{
+    width: 50%;
+    margin: 20px auto;
+    margin-bottom: 0px;
+    cursor: pointer;
 }
 
 /* middle boxs */
@@ -488,6 +485,9 @@ height: max-content;
      body #middle_box1{
         grid-template-columns: 1fr;
     }
+    #search{
+        display: none;
+    }
     #date{
         display: none;
     }
@@ -703,5 +703,8 @@ body #date{
 }
 #signup input{
     width: 95%;
+}
+#search{
+    display: none;
 }
 }
