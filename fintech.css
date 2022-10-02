@@ -11,87 +11,100 @@ body{
     display: flex;
     justify-content: space-between;
     margin: auto;
-    padding: 70px 80px;
-    padding-bottom: 30px;
+    padding: 60px 80px;
+    padding-bottom: 20px;
 }
 #head>div{
     height: fit-content;
 }
 #topimg>img{
     display: block;
-    width: 200px;
+    width: 220px;
 }
 #social{
     width: fit-content;
 }
 #social>img{
- margin:  0% 3%;
+ margin:  0% 2%;
  cursor: pointer;
 }
-<<<<<<< HEAD
-a ul{
-    display: none;
-    list-style: none;
-    padding: 0%;
-    margin: 0px;
-}
-a:hover>ul{
-    display: block;
-    background-color: #211f1f;
-}
-=======
->>>>>>> ab321945b6ec5b75f8a8e4390b11a5d399e5e17f
 #topbtn{
     display: block;
     background-color: transparent;
-    color: #99141d ;
-    border: 1px solid #99141d ;
-    padding: 10px 20px;
+    color: red ;
+    border: 1px solid red;
+    padding: 10px 15px;
     border-radius: 5px;
     font-size: 13px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 #topbtn:hover{
 background-color: #D2051E;
 color: white;
 border-color: white;
 }
+
+/* navbar */
+
 #navbar{
     width: fit-content;
     height: fit-content;
     margin: 0px auto ;
     display: flex;
-    font-size: 14px;
     font-family: sans-serif;
     text-align: center;
 }
-<<<<<<< HEAD
-a span{
-    color: red;
-    margin-left: 5px;
-}
-=======
->>>>>>> ab321945b6ec5b75f8a8e4390b11a5d399e5e17f
-#navbar a{
+#navbar>ul>li a{
     color: white;
      font-size: 14px;
-     padding: 5px;
+     padding: 7px 10px;
     text-decoration: none;
 }
-#navbar a:hover{
+#navbar>ul>li>a:hover{
     background-color: white;
     color: #D2051E;
 }
-<<<<<<< HEAD
-#search{
-    width: 95%;
-    text-align: right;
-    margin-top: -25px;
+#navbar>ul>li>ul a:hover{
+    color: red;
 }
-=======
->>>>>>> ab321945b6ec5b75f8a8e4390b11a5d399e5e17f
+
+#navbar ul{
+    list-style: none;
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#navbar  ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10 20px;
+    display: block;
+}
+#navbar ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position:  relative ;
+}
+#navbar ul li ul{
+    display: none;
+}
+#navbar ul li:hover>ul{
+display: block;
+background-color: #262323;
+}
+
+
+
+
+
+
 hr{
     border: 0.1px solid #99141d ;
+    margin-top: 0px;
 }
 #coal{
     width: fit-content;
@@ -99,20 +112,11 @@ hr{
     margin-bottom: 30px;
     cursor: pointer;
 }
-<<<<<<< HEAD
-
-=======
-a+img{
-padding-left: 100%;
-margin-left: 40%;
-}
->>>>>>> ab321945b6ec5b75f8a8e4390b11a5d399e5e17f
-
 
 /* box work */
 
 #box1{
-    border-top: 10px solid #DA4B8B;
+    border-top: 10px solid  blue;
     border-right: none;
     border-left: none;
     width: 90%;
@@ -123,12 +127,7 @@ margin-left: 40%;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
     padding-bottom: 80px;
-    border-bottom: 4px solid 
-<<<<<<< HEAD
-    #DA4B8B;
-=======
-    #DA4B8B;;
->>>>>>> ab321945b6ec5b75f8a8e4390b11a5d399e5e17f
+    border-bottom: 4px solid blue;
 }
 
 #box1>#second{
@@ -144,7 +143,7 @@ margin-left: 40%;
     font-weight: 900;
     padding-top: 0px;
     margin-left: 0px;
-    color: #d04785e4;
+    color: blue;
     font-family: "Open Sans";
 }
 #second{
@@ -280,10 +279,6 @@ padding-top: 20px;
 }
 #footer a:hover{
     color:red;
-<<<<<<< HEAD
-    text-decoration: ;
-=======
->>>>>>> ab321945b6ec5b75f8a8e4390b11a5d399e5e17f
 }
 
 #footer h3{
@@ -301,11 +296,7 @@ padding-top: 20px;
     display: flex;
     height: auto;
     font-family: sans-serif;
-<<<<<<< HEAD
-    margin-top: 90px;
-=======
     margin-top: 60px;
->>>>>>> ab321945b6ec5b75f8a8e4390b11a5d399e5e17f
     justify-content: space-between;
 }
 #btmiconsocial{
@@ -330,186 +321,5 @@ padding-top: 12px;
     margin: 10px;
      font-size: 14px;
     color: rgba(255, 255, 255, 0.534);
-<<<<<<< HEAD
-}
-
-
-@media all and (min-width:10px) and (max-width:320px){
-
-   #coal img{
-    width: 90%;
-   }
-   a+img{
-display: none;
-}
-#box1{
-    grid-template-columns: 1
-}
-#box1>#second{
-    grid-column: 1/1
-    }
-}
-
-@media all and (min-width:320px) and (max-width:550px){
-
-   #coal img{
-    width: 100%;
-   }
-   a+img{
-display: none;
-}
-body #box1{
-    grid-template-columns: 1fr;
-    gap: 0px;
-    width: 97%;
-}
-#box1>#second{
-    grid-column: 1/1;
-    border: none;
-    gap: 0px;
-    }
-    #third{
-        border: none;
-    }
-    #Date{
-        display: none;
-    }
-    #social{
-        display: none;
-    }
-    #topimg{
-        margin: auto;
-    }
-    #navbar{
-        display: none;
-    }
-    .childs p{
-        display: none;
-    }
-    #box2{
-        width: 98%;
-    }
-    .childs{
-    grid-template-columns: repeat(2,1fr);
-   width: 100%;
-}
-.childs h1{
-    font-size: 20px;
-}
-.childs .two{
-    display: none;
-}
-#footer a{
-    display: none;
-}
-#footer{
-    margin: 0px;
-    padding: 0px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    border-bottom: 1px solid white;
-    font-family: "Open Sans";
-}
-#redline{
-    display: none;
-}
-#footer h3{
-        padding: 0px;
-        margin: 0px;
-        border: none;
-    }
-    #lastone{
-        display: none;
-    }
-    #lastetwo{
-        margin: auto;
-    }
-}
-
-
-
-
-@media all and (min-width:551px) and (max-width:750px){
-
-   #coal img{
-    width: 90%;
-    margin: auto;
-   }
-   #coal{
-    width: 90%;
-   }
-   a+img{
-display: none;
-}
-body #box1{
-    grid-template-columns: 1fr;
-    gap: 0px;
-    width: 97%;
-}
-#box1>#second{
-    grid-column: 1/1;
-    border: none;
-    gap: 0px;
-    }
-    #third{
-        border: none;
-    }
-    #Date{
-        display: none;
-    }
-    #social{
-        display: none;
-    }
-    #topimg{
-        margin: auto;
-    }
-    #navbar{
-        display: none;
-    }
-    .childs p{
-        display: none;
-    }
-    #box2{
-        width: 98%;
-    }
-    .childs{
-    grid-template-columns: repeat(2,1fr);
-   width: 100%;
-}
-.childs h1{
-    font-size: 20px;
-}
-.childs .two{
-    display: none;
-}
-#footer a{
-    display: none;
-}
-#footer{
-    margin: 0px;
-    padding: 0px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    border-bottom: 1px solid white;
-    font-family: "Open Sans";
-}
-#redline{
-    display: none;
-}
-#footer h3{
-        padding: 0px;
-        margin: 0px;
-        border: none;
-    }
-    #lastone{
-        display: none;
-    }
-    #lastetwo{
-        margin: auto;
-    }
-}
-
-=======
     text-decoration: none;
 }
->>>>>>> ab321945b6ec5b75f8a8e4390b11a5d399e5e17f
