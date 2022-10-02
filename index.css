@@ -37,6 +37,13 @@ body{
     font-size: 13px;
     margin-top: 15px;
 }
+#topbtn a{
+    text-decoration: none;
+    color: red;
+}
+#topbtn a:hover{
+    color: white;
+}
 #topbtn:hover{
 background-color: #D2051E;
 color: white;
