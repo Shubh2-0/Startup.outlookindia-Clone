@@ -320,7 +320,7 @@ padding-top: 12px;
 #footer2 a{
     margin: 10px;
      font-size: 14px;
-    color: rgba(255, 255, 255, 0.534);
+    color: rgba(255, 255, 255, 0.533);
     text-decoration: none;
 }
 @media all and (min-width:320px) and (max-width:550px){
