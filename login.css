@@ -21,7 +21,7 @@
     height: auto;
 }
 #secondimg{
-    width: 35%;
+    width: 40%;
     font-size: 8px;
     color: gray;
     margin: auto;
@@ -117,4 +117,37 @@ form{
     grid-template-columns: repeat(2,1fr);
     margin-bottom: 50px;
     margin-top: 20px;
+}
+@media all and (max-width:700px)  and  (min-width:10px)
+{
+    #main{
+        width: 70%;
+    }
+    #secondimg{
+    width: 38%;
+    font-size: 6px;
+}
+#secondimg img{
+    width: 70%;
+}
+
+
+    
+
+
+}
+@media all and (max-width:850px)  and  (min-width:701px){
+    #main{
+        width: 50%;
+    }
+    
+}
+@media all and (max-width:1200px)  and  (min-width:850px){
+#secondimg{
+    width: 40%;
+    font-size: 7px;
+}
+#secondimg img{
+    width: 70%;
+}
 }
