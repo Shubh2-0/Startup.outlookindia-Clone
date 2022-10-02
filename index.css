@@ -90,19 +90,18 @@ a{
     text-decoration: none;
     color: white;
     width: 50%;
-    cursor: pointer;
+}
+a ul{
+    display: none;
+    list-style: none;
+    padding: 0%;
+    margin: 0px;
+}
+a:hover>ul{
+    display: block;
+    background-color: #211f1f;
 }
 
-#search{
-    width: 85%;
-    margin: auto;
-    border: 1px solid red;
-    text-align: end;
-    margin-top: -30px;
-}
-hr{
-    margin-top: 10px;
-}
 /* middle boxs */
 
 #middle_box1{
