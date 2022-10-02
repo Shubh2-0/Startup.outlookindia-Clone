@@ -1,0 +1,341 @@
+#topimg1{
+    height: 30px;
+    width: 10%;
+    margin: auto;
+}
+#topimg1 img{
+    width: 100%;
+}
+#topimg2 img{
+    width: 100%;
+}
+#topimg2m {
+    display: none;
+}
+#price{
+    text-align: center;
+    font-family: "Roboto";
+    color: #15213D;
+    font-weight: 500;
+    font-size: 25px;
+}
+#price+p{
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/* red part */
+
+#price+p+div{
+    width: 70%;
+    margin: 0px auto;
+    font-size: 15px;
+    font-family: "roboto";
+    margin-top: 20px;
+}
+#price+p+div div{
+    background-color: #BB011D;
+    color: white;
+    width: 40%;
+    font-weight: 400;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px ;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+/* box 1 */
+
+.yearbox{
+    border: 1px solid rgb(230, 212, 212);
+    border-radius: 20px;
+    padding: 30px 40px;
+    width: 60%;
+    margin: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    font-family: "Roboto";
+    column-gap: 30px;
+    background-color:#f2f2f2;
+    margin-bottom: 50px;
+}
+.coupan{
+    grid-column: 3/4;
+}
+/* child box one */
+
+.yearbox .one img{
+    width: 100%;
+}
+.one h2{
+    display: none;
+}
+.digital h2{
+    color: #BB011D;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+
+/* discount box(child box 2) */
+.discount1{
+height: auto;
+display: grid;
+font-size: 15px;
+grid-template-columns: 2fr 1fr 1fr;
+padding: 2px 10px;
+font-family: "Roboto";
+font-weight: 300;
+border: 1px solid rgb(173, 166, 166);
+margin-top: -10px;
+border-radius: 10px;
+background-color: white;
+margin-bottom: 20px;
+}
+.discount1 .save{
+    display: block;
+}
+.discount1 .year+div{
+    color: #bb011db6 ;
+    text-decoration: line-through;
+    padding-right: 10px;
+    font-weight: 500;
+}
+.discount1 .year{
+    color: black;
+}
+.discount1 .save div{
+    display: flex;
+    color: #BB011D ;
+    align-items: center;
+}
+.save1{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.save2{
+    font-size: 18px;
+    font-weight: 500;
+}
+.discount1>div{
+display: flex;
+align-items: center;
+}
+
+/* list(.child3 */
+.child3  h5{
+    margin-left: 20px;
+}
+li{
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+ul{
+    list-style-image: url("https://subscriptions.outlookbusiness.com/tick.svg");
+}
+
+/* child box 4 */
+#exclusivechild>h4{
+    margin: 0%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#exclusivechild{
+
+    grid-column: 1/3;
+    width: 90%;
+}
+#grandex{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#exclusive{
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding:10px;
+    grid-template-columns: 1fr  2fr;
+}
+
+#exclusive>div>p{
+    font-size: 12px;
+    margin-top: 0%;
+    margin-left: -30px;
+    padding-right: 30px;
+}
+#exclusive img{
+    display: inline;
+    width: 30%;
+    padding-bottom: 20px;
+}
+
+/* child 5 */
+#coupan input{
+    width: 65%;
+    font-size: 17px;
+    margin-left: 20px;
+    padding: 10px 40px 10px 12px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#coupan >div{
+    display: flex;
+    gap: 10px;
+    margin-top: 60px;
+}
+#sim{
+    font-size: 35px;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    padding: 0px 20px;
+    border-radius: 5px;
+}
+#coupan button{
+    width: 60%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 40px 50px 0px 90px ;
+    background-color: #BB011D;
+    border: none;
+    color: white;
+    font-family: "roboto";
+    font-size: 18px;
+}
+.buy2{
+    grid-column: 2/-1;
+    margin-top: 20px;
+}
+.buy2 button{
+     width: 30%;
+     padding: 10px 0px ;
+    border-radius: 20px;
+    background-color: #BB011D;
+    border: none;
+    color: white;
+    font-family: "roboto";
+    font-size: 18px;
+    display: block;
+    margin:auto;
+}
+@media all and (max-width:770px)  and  (min-width:10px)
+{
+#topimg2{
+    display: none;
+}
+#topimg2m{
+    display: block;
+}
+#topimg2m img{
+    width: 100%;
+    display: block;
+}
+
+#price+p+div{
+    width: 90%;
+    margin: auto;
+}
+#price+p+div div{
+    width: 94%;
+    margin: auto;
+}
+.yearbox{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px;
+}
+#firstbox{
+  border-radius: 0px;
+}
+#firstbox button{
+     margin-bottom: 20px;
+}
+.discount1{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.yearbox>div{
+    width: 100%;
+    margin: auto;
+}
+.yearbox>.one{
+    width: 100%;
+    text-align: center;
+    color: #BB011D;
+}
+.digital{
+    grid-row: 2/3;
+}
+.child3{
+    grid-row: 3/3;
+    display: block;
+}
+.buy2{
+    grid-column: 1/1;
+}
+.digital h2{
+    color: transparent;
+}
+.one h2{
+    display: block;
+    margin-bottom: 30px;
+}
+.yearbox .one img{
+    width: 35%;
+}
+.child3 h5{
+    text-align: center;
+}
+#exclusivechild>h4{
+   text-align: center;
+}
+#exclusivechild{
+    grid-column: 1/1;
+    width: 90%;
+    height: fit-content;
+}
+#grandex{
+    display: grid;
+    grid-template-columns:1fr;
+    height: fit-content;
+}
+#exclusive{
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    width: 96%;
+    grid-template-columns: 1fr  10fr;
+    padding: 10px;
+    height: fit-content;
+     border-radius: 10px;
+}
+#check{
+    display: inline-block;
+    
+}
+
+
+#exclusive>div>p{
+    font-size: 10px;
+    margin-top: 0%;
+    margin-left: 0px;
+    padding-right: 30px;
+}
+#exclusive img{
+    display: inline;
+    width: 30%;
+    padding-bottom: 20px;
+}
+.buy2 button{
+    width: 80%;
+    margin-bottom: 30px;
+}
+}
+
+

@@ -1,0 +1,153 @@
+#main{
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 27%;
+    margin: auto;
+    height: auto;
+    margin-top: 60px;
+    font-family: "Open Sans";
+    padding: 0px 20px;
+    border-radius: 20px;
+}
+#topimg{
+    width: 70%;
+    margin: auto;
+    margin-top:70px;
+    height: auto;
+}
+#firstimg{
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+#secondimg{
+    width: 40%;
+    font-size: 8px;
+    color: gray;
+    margin: auto;
+    margin-top: 5%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#email{
+width: 90%;
+margin: auto;
+display: block;
+font-size: 18px;
+padding: 13px 10px;
+border-radius: 5px;
+border: 1px solid red;
+}
+#email::placeholder{
+color: red;
+}
+#email+p{
+    width: 95%;
+    margin: auto;
+    color: gray;
+    margin-top: 0%;
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+#check{
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#verify{
+    width: 95%;
+    margin:0px auto;
+    display: block;
+    padding: 15px 0px;
+    font-size: 15px;
+    background-color: #9B9B9B;
+    color: rgba(255, 255, 255, 0.693);
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+form+p{
+    text-align: center;
+    color: rgb(214, 198, 198);
+    margin: 40px auto;
+}
+p span{
+    color: black;
+    font-weight: 700;
+    
+}
+#login>i{
+    padding-right: 15px;
+}
+#login{
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+    padding: 15px 0px;
+    font-size: 15px;
+    font-weight: 800;
+    word-spacing: 0px;
+    background-color: #15213D;
+    color: white;
+    font-family: "Roboto";
+    border: none;
+    border-radius: 10px;
+}
+
+form{
+   width: 90%;
+   margin: auto;
+   margin-top: 30px;
+   height: auto;
+}
+#main img{
+    width: 100%;
+}
+#lastimg{
+    width: 30%;
+    font-size: 10px;
+    color: gray;
+    margin: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+@media all and (max-width:700px)  and  (min-width:10px)
+{
+    #main{
+        width: 70%;
+    }
+    #secondimg{
+    width: 38%;
+    font-size: 6px;
+}
+#secondimg img{
+    width: 70%;
+}
+
+
+    
+
+
+}
+@media all and (max-width:850px)  and  (min-width:701px){
+    #main{
+        width: 50%;
+    }
+    
+}
+@media all and (max-width:1200px)  and  (min-width:850px){
+#secondimg{
+    width: 40%;
+    font-size: 7px;
+}
+#secondimg img{
+    width: 70%;
+}
+}
