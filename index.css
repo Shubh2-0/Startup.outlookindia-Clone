@@ -1,8 +1,7 @@
-
 body{
     padding: 0px;
    margin: 0px;
-   background-color: #151414;
+   background-color: #262323;
    color: whitesmoke;
 }
 /* header part  */
@@ -11,7 +10,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: auto;
-    padding: 70px 80px;
+    padding: 60px 80px;
     padding-bottom: 20px;
 }
 #head>div{
@@ -19,60 +18,110 @@ body{
 }
 #topimg>img{
     display: block;
-    width: 200px;
-    cursor: pointer;
+    width: 220px;
 }
 #social{
     width: fit-content;
 }
 #social>img{
  margin:  0% 2%;
+ cursor: pointer;
 }
 #topbtn{
     display: block;
     background-color: transparent;
-    color: #99141d ;
-    border: 1px solid #99141d ;
+    color: red ;
+    border: 1px solid red;
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 13px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 #topbtn:hover{
 background-color: #D2051E;
 color: white;
 border-color: white;
 }
+#topbtn a{
+    text-decoration: none;
+    color: red;
+}
+#topbtn a :hover{
+color: white;
+cursor: pointer;
+}
+/* navbar */
+
 #navbar{
     width: fit-content;
     height: fit-content;
     margin: 0px auto ;
     display: flex;
-    font-size: 14px;
     font-family: sans-serif;
     text-align: center;
 }
-#navbar a{
+#navbar>ul>li a{
     color: white;
      font-size: 14px;
-     padding: 10px;
-     display: flex;
+     padding: 7px 10px;
     text-decoration: none;
 }
-#navbar a:hover{
+#navbar>ul>li:hover{
     background-color: white;
     color: #D2051E;
 }
+#navbar a:hover{
+    color: red;
+}
+#navbar>ul>li>ul a:hover{
+    color: red;
+}
+
+#navbar ul{
+    list-style: none;
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#navbar  ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10 20px;
+    display: block;
+}
+#navbar ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position:  relative ;
+}
+#navbar ul li ul{
+    display: none;
+}
+#navbar ul li:hover>ul{
+display: block;
+background-color: #262323;
+}
+#search{
+    display: block;
+    margin-left: 93%;
+    margin-top: -30px;
+}
+
 hr{
     border: 0.1px solid #99141d ;
-    margin: 0px;
+    margin-top: 10px;
 }
 #coal{
-    width: 50%;
+    width: fit-content;
     margin: 20px auto;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     cursor: pointer;
 }
+
 a>p{
     text-align: center;
     line-height: 60px;

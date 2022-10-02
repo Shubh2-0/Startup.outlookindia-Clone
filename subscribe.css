@@ -211,17 +211,34 @@ ul{
     grid-column: 2/-1;
     margin-top: 20px;
 }
+#buy a{
+text-decoration: none;
+color: white;
+}
+
+#buy:hover{
+    cursor: pointer;
+    background-color: #8a192a;
+}
+.buy2 a{
+    text-decoration: none;
+    color: white;
+}
+
 .buy2 button{
      width: 30%;
      padding: 10px 0px ;
     border-radius: 20px;
     background-color: #BB011D;
     border: none;
-    color: white;
     font-family: "roboto";
     font-size: 18px;
     display: block;
     margin:auto;
+}
+.buy2 button:hover{
+    background-color: #8a192a;
+    cursor: pointer;
 }
 @media all and (max-width:770px)  and  (min-width:10px)
 {
