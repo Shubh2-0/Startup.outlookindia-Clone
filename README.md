@@ -1,16 +1,9 @@
 # Startup.outlookindia-Clone
 
 
-This is a Web Application where user can search for any Movie title in the search page and get the details of it like IMDB rating, Release Year, Genre. 
-The tools used in the project are HTML, CSS, JavaScript , OMDB API. 
+Outlook India covers the latest India news, analysis, business news and long-form stories on culture, money market and personal finance. Read India's best online magazine.
+The tools used in the project are HTML, CSS, JavaScript. 
 
-
-<ul>
-  <li>Marky Image Slider</li>
-  <li>User can easily search any movie</li>
-  <li>User can sort the movies based on their ratings</li>
-  <li>Login/Sign-up feature</li>
-</ul>
 
 <h2> Snippets</h2>
 <div>
