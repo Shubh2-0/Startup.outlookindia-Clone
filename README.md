@@ -14,7 +14,7 @@ The tools used in the project are HTML, CSS, JavaScript.
 </div>
  
  ## Tools Used 🛠️
-<img src="Assets/images/Skills/html.png" alt="skill" width="50" /> <img src="Assets/images/Skills/css.png" alt="skill" width="50" /> <img src="Assets/images/Skills/js.png" alt="skill" width="50" /> <img src="Assets/images/Skills/github.png" alt="skill" width="50" /> <img src="Assets/images/Skills/vscode.png" alt="skill" width="50" />
+<img src="images/html.png" alt="skill" width="50" /> <img src="images/css.png" alt="skill" width="50" /> <img src="images/js.png" alt="skill" width="50" /> <img src="images/github.png" alt="skill" width="50" /> <img src="images/vscode.png" alt="skill" width="50" />
 
 
 <br>
