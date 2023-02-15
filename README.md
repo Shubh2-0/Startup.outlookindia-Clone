@@ -15,8 +15,8 @@ The tools used in the project are HTML, CSS, JavaScript.
 
  ## Features 📋
 ⚡️ Fully Responsive\
-⚡️ Valid HTML5 & CSS3\
-⚡️ Easy to modify\
+⚡️ Valid HTML & CSS\
+⚡️ Easy to modify
 
 
 ## Installation & Deployment 📦
