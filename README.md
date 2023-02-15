@@ -3,7 +3,7 @@
 
 Outlook India covers the latest India news, analysis, business news and long-form stories on culture, money market and personal finance. Read India's best online magazine.
 
-<a href="https://poetic-alfajores-3390b6.netlify.app/" target="_blank">**Visit Now** 🌐🖇️</a>
+<a href="https://poetic-alfajores-3390b6.netlify.app/" target="_blank">**Visit Now** 🔗</a>
 
 
 <h2> Overview </h2>
