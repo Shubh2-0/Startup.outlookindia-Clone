@@ -20,6 +20,7 @@ The following tools and technologies were utilized to develop this clone:
 - JavaScript: Included for interactivity and dynamic features.
 - GitHub: The repository is hosted on GitHub, enabling collaboration and version control.
 - VS Code: A popular code editor used to write and manage the codebase efficiently.
+ 
  <img src="images/html.png" alt="skill" width="50" /> <img src="images/css.png" alt="skill" width="50" /> <img src="images/js.png" alt="skill" width="50" /> <img src="images/github.png" alt="skill" width="50" /> <img src="images/vscode.png" alt="skill" width="50" />
 
  
