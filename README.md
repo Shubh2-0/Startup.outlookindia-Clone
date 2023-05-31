@@ -31,25 +31,20 @@ We welcome contributions from the open-source community to enhance this project.
 2. Build and modify your code as per your improvements or additions.
 3. Create a new pull request to submit your changes for review and integration into the main project.
 
-## Visit Now 🚀
-To explore the cloned website and experience its features firsthand, you can visit the [Startup.outlookindia-Clone](https://github.com/Shubh2-0/Startup.outlookindia-Clone.git) repository.
+
+To explore the cloned website and experience its features firsthand, you can <a href="https://poetic-alfajores-3390b6.netlify.app/" target="_blank">**click hare** 🚀</a>
 
 ## 📬 Contact
 If you have any questions or would like to get in touch, feel free to reach out to me through the following channels:
-
-- LinkedIn: [Shubham Bhati](https://www.linkedin.com/in/shubham-bhati-787319213/)
+&nbsp;&nbsp;<a href="https://www.linkedin.com/in/shubham-bhati-787319213/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="30"></img></a>
 
 Thank you for your interest in this project. We hope you find it useful and enjoy exploring the codebase!
-<a href="https://poetic-alfajores-3390b6.netlify.app/" target="_blank">**Visit Now** 🔗</a>
-
-
-
-<a href="https://poetic-alfajores-3390b6.netlify.app/" target="_blank">**Visit Now** 🚀</a>
 
 
 
 
-&nbsp;&nbsp;<a href="https://www.linkedin.com/in/shubham-bhati-787319213/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="30"></img></a>
+
+
 
 
 
