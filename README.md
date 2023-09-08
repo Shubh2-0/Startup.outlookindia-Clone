@@ -1,7 +1,7 @@
 # Startup.outlookindia-Clone
 
 Welcome to the Startup.outlookindia-Clone repository! This project aims to replicate the functionalities and design of Outlook India, an online magazine covering the latest news, analysis, business updates, and captivating long-form stories on Indian culture, money markets, and personal finance.
-
+ 
 <h2> Overview </h2>
 <div>
  <a href="https://drive.google.com/uc?export=view&id=1tUBT3WBxeM-2KRN6L5kvkG4vXkHjy6we"><img src="images/mainpage.png" style="width: 100%; max-width: 100%; height: auto" title="Click to enlarge picture" /> 
