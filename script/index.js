@@ -1,6 +1,6 @@
 function show() {
   let userput = document.querySelector('#emaill').value
-  if (userput != '') {
+  if (userput !== '') {
     swal(
       'Congratulations',
       'You are subscribed to the OUTLOOK INDIA',

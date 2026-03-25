@@ -10,7 +10,7 @@ function show(event){
     event.preventDefault();
     let form=document.querySelector("form")
     let email=form.email.value
-    if(email!=""){
+    if(email!==""){
         swal("Enter OTP:", {
   content: "input",
 })

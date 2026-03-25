@@ -33,7 +33,7 @@ We welcome contributions from the open-source community to enhance this project.
 
 Thank you for your interest in this project. We hope you find it useful and enjoy exploring the codebase!
  
-To explore the cloned website and experience its features firsthand, you can <a href="https://poetic-alfajores-3390b6.netlify.app/" target="_blank">**click hare** 🚀</a>
+To explore the cloned website and experience its features firsthand, you can <a href="https://poetic-alfajores-3390b6.netlify.app/" target="_blank">**click here** 🚀</a>
 
 
 ## 📬 Contact
